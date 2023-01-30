@@ -1,0 +1,2 @@
+[console_scripts]
+piplines = piplines:start_pipline
