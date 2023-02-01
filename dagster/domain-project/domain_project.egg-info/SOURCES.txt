@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+domain_project/__init__.py
+domain_project/assets.py
+domain_project.egg-info/PKG-INFO
+domain_project.egg-info/SOURCES.txt
+domain_project.egg-info/dependency_links.txt
+domain_project.egg-info/requires.txt
+domain_project.egg-info/top_level.txt
