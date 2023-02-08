@@ -32,8 +32,11 @@ piplines --data_path "C:\Users\alexe\Desktop\prefect_dagster\ETL\prefect\data\or
 3. Перейти в UI (http://127.0.0.1:3000)
 4. Нажать на Materialize all на вкладке Deployment
 5. Прописать в конфигурации пути к входному и выходному файлам
+
 ПРИМЕР:
+
 {'ops': {'load': {'config': {'DATA_PATH': 'C:\Users\alexe\Desktop\prefect_dagster\ETL\dagster\domain-project\domain_project\data\original.csv'}}, 'save': {'config': {'SAVE_PATH': 'C:\Users\alexe\Desktop\prefect_dagster\ETL\dagster\domain-project\domain_project\data\originalDag2.csv'}}}}
+
 6. Материализуем
 
 ___
