@@ -1,4 +1,4 @@
-# ETL
+# Запуск
 
 CSV файлы хранятся в:
 - ETL\dagster\domain-project\domain_project\data
