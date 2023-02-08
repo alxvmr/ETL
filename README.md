@@ -10,6 +10,12 @@ ___
 1. poetry install
 2. poetry shell
 
+___
+
+Добавление глобальной переменной **pipelines** (для задания Prefect)
+1. Перейти в папку ETL\prefect
+2. Выполнить команду (в запущпенном окружении) **pip install .**
+
 Для задания с prefect запустить команду:
 piplines --data_path <путь к входному csv> --output_path <путь к выходному csv>
 ПРИМЕР: piplines --data_path "C:\Users\alexe\Desktop\prefect_dagster\ETL\prefect\data\original\original.csv" --output_path "C:\Users\alexe\Desktop\prefect_dagster\ETL\prefect\data\original\original4.csv"
