@@ -22,7 +22,7 @@ piplines --data_path <путь к входному csv> --output_path <путь 
 5. Прописать в конфигурации пути к входному и выходному файлам
 ПРИМЕР:
 {'ops': {'load': {'config': {'DATA_PATH': 'C:\Users\alexe\Desktop\prefect_dagster\ETL\dagster\domain-project\domain_project\data\original.csv'}}, 'save': {'config': {'SAVE_PATH': 'C:\Users\alexe\Desktop\prefect_dagster\ETL\dagster\domain-project\domain_project\data\originalDag2.csv'}}}}
-6. Материлизуем
+6. Материализуем
 
 ___
 
