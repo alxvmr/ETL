@@ -18,7 +18,7 @@ ___
 
 ___
 
-Для задания с prefect запустить команду:
+Для задания с **Prefect** запустить команду:
 
 **piplines --data_path <путь к входному csv> --output_path <путь к выходному csv>**
 
@@ -26,7 +26,7 @@ ___
 
 piplines --data_path "C:\Users\alexe\Desktop\prefect_dagster\ETL\prefect\data\original\original.csv" --output_path "C:\Users\alexe\Desktop\prefect_dagster\ETL\prefect\data\original\original4.csv"
 
-Для задания с Dagster:
+Для задания с **Dagster**:
 1. Перейти в папку dagster -> domain-project
 2. Вызвать команду dagit
 3. Перейти в UI (http://127.0.0.1:3000)
