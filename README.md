@@ -14,15 +14,17 @@ ___
 
 Добавление глобальной переменной **pipelines** (для задания Prefect)
 1. Перейти в папку ETL\prefect
-2. Выполнить команду (в запущпенном окружении) **pip install .**
+2. Выполнить команду (в запущенном окружении) **pip install .**
 
 ___
 
 Для задания с prefect запустить команду:
 
-piplines --data_path <путь к входному csv> --output_path <путь к выходному csv>
+**piplines --data_path <путь к входному csv> --output_path <путь к выходному csv>**
 
-ПРИМЕР: piplines --data_path "C:\Users\alexe\Desktop\prefect_dagster\ETL\prefect\data\original\original.csv" --output_path "C:\Users\alexe\Desktop\prefect_dagster\ETL\prefect\data\original\original4.csv"
+ПРИМЕР:
+
+piplines --data_path "C:\Users\alexe\Desktop\prefect_dagster\ETL\prefect\data\original\original.csv" --output_path "C:\Users\alexe\Desktop\prefect_dagster\ETL\prefect\data\original\original4.csv"
 
 Для задания с Dagster:
 1. Перейти в папку dagster -> domain-project
