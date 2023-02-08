@@ -1,5 +1,32 @@
 # ETL
-Примеры работы
+
+CSV файлы хранятся в:
+- ETL\dagster\domain-project\domain_project\data
+- ETL\prefect\data\original
+
+___
+
+Запуск окружения:
+1. poetry install
+2. poetry shell
+
+Для задания с prefect запустить команду:
+piplines --data_path <путь к входному csv> --output_path <путь к выходному csv>
+ПРИМЕР: piplines --data_path "C:\Users\alexe\Desktop\prefect_dagster\ETL\prefect\data\original\original.csv" --output_path "C:\Users\alexe\Desktop\prefect_dagster\ETL\prefect\data\original\original4.csv"
+
+Для задания с Dagster:
+1. Перейти в папку dagster -> domain-project
+2. Вызвать команду dagit
+3. Перейти в UI (http://127.0.0.1:3000)
+4. Нажать на Materialize all на вкладке Deployment
+5. Прописать в конфигурации пути к входному и выходному файлам
+ПРИМЕР:
+{'ops': {'load': {'config': {'DATA_PATH': 'C:\Users\alexe\Desktop\prefect_dagster\ETL\dagster\domain-project\domain_project\data\original.csv'}}, 'save': {'config': {'SAVE_PATH': 'C:\Users\alexe\Desktop\prefect_dagster\ETL\dagster\domain-project\domain_project\data\originalDag2.csv'}}}}
+6. Материлизуем
+
+___
+
+## Примеры работы
 1. Prefect
 <img src="https://sun9-east.userapi.com/sun9-43/s/v1/ig2/x7dyHIzwAphw1WEtvYuFfPWPdZwTMq2NRI1iXGEeG63lXHrEZPe-lVpKnrqQoLZPEuf9rRkz4CpCM4fTRlbLRLg9.jpg?size=1553x462&quality=96&type=album" height=200>
 
